@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(to right, #1a1a2e, #16213e); /* Fondo degradado */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: auto; /* Permite desplazamiento si el contenido es grande */
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    overflow: visible; /* Asegura que el contenido no se esconda */
+    min-height: 100vh; /* Mantiene espacio suficiente */
+}
+
+/* Estilos del título */
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #ff85a2;
+    text-shadow: 2px 2px 5px rgba(255, 133, 162, 0.5);
+}
+
+/* Mensaje principal */
+.mensaje {
+    font-size: 1.5em;
+    line-height: 1.8;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Contenedor de imagen para asegurar que no desaparezca */
+.imagen-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Imagen */
+img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Botones */
+button {
+    background: #ff758f;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 6px rgba(255, 117, 143, 0.3);
+}
+
+button:hover {
+    background: #ff3b66;
+    transform: scale(1.1);
+}
+
+/* Mensaje oculto */
+.oculto {
+    display: none;
+    font-size: 1.3em;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* PD */
+.pd {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffcccb;
+}
+
+/* Mensaje bonito */
+.texto-bonito {
+    font-size: 1.8em;
+    color: #ffcccb;
+    font-weight: bold;
+}
+
+/* Sección de música */
+.musica {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.2);
+}
+
+.texto-musica {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffd1dc;
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.nombre-cancion {
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ff85a2;
+}
